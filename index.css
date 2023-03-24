@@ -46,7 +46,7 @@ button{
 
 
 table, th, td {
-    border:1px solid red;
+    border:2px solid red;
     max-width: fit-content;
     border-radius: 4px;
     background-color: rgb(254, 204, 186);

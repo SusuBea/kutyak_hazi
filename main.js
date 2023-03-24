@@ -1,10 +1,10 @@
 window.addEventListener("load", init);
 
 const KUTYAK = [
-    {név: "Lizzy", fajta: "spániel", kor: "5"},
-    {név: "Picúr", fajta: "tacskó", kor: "2"},
-    {név: "Rokkó", fajta: "terrier", kor: "1"},
-    {név: "Centi", fajta: "csivava", kor: "4"},
+    {Név: "Lizzy", Fajta: "spániel", Kor: "5"},
+    {Név: "Picúr", Fajta: "tacskó", Kor: "2"},
+    {Név: "Rokkó", Fajta: "terrier", Kor: "1"},
+    {Név: "Centi", Fajta: "csivava",Kor: "4"},
 ]
 
 function init(){
