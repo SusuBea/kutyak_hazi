@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+
+body{
+max-width: 1200px;
+}
+
+header,
+footer{
+    text-align: center;
+    border: 2px solid salmon;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: blanchedalmond;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article{
+    border: 2px solid salmon;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.kutyak{
+    border: 2px solid red;
+    margin: 5px;
+    flex: 0 0 calc(33% - 5px);
+    padding: 5px;
+    background-color: rgb(254, 204, 186);
+    border-radius: 4px;
+}
+
+button{
+    background-color: rgb(251, 83, 83);
+    border-radius: 4px;
+    margin: 4px;
+}
+
+
+table, th, td {
+    border:1px solid red;
+    max-width: fit-content;
+    border-radius: 4px;
+    background-color: rgb(254, 204, 186);
+   
+
+  }
+
+th, td {
+    padding: 20px;
+  }
+
+.table{
+    border: 2px solid salmon;
+    background-color: blanchedalmond;
+    border-radius: 4px;
+
+}
